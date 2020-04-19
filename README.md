@@ -4,6 +4,7 @@
 
 
 ## 冒泡排序  
+![冒泡动画演示](./images/bubbleSort)
 
 ### 思想  
 - 比较当前元素和它的下一个元素，如果当前元素比下一个元素大，调换位置（向上冒泡）    
@@ -15,7 +16,6 @@
 优化：当一次循环没有发生冒泡，说明排序已经完成，停止循环    
 
 ### 解法  
-    ```js
     function bubbleSort(array) {
       for (let j = 0; j < array.length; j++) {
         let complete = true;
@@ -33,7 +33,6 @@
       }
       return array;
     }
-    ```
 
 
 ## 复杂度
